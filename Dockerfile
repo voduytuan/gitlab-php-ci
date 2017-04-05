@@ -11,4 +11,5 @@ RUN composer -n require phploc/phploc:* phpunit/phpunit:~4.0 pdepend/pdepend:~2.
 # make path to phplibs (phpcs..)
 RUN echo "export PATH=$PATH:/vendor/bin" >> /root/.bashrc
 
-
+# Upload source
+RUN source /root/.bashrc
