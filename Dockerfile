@@ -12,4 +12,4 @@ RUN composer -n require phploc/phploc:* phpunit/phpunit:~4.0 pdepend/pdepend:~2.
 RUN echo "export PATH=$PATH:/vendor/bin" >> /root/.bashrc
 
 # Upload source
-RUN source /root/.bashrc
+RUN exec bash
