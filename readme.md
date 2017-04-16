@@ -22,7 +22,6 @@ docker pull voduytuan/gitlab-php-ci
 ```
 
 ## Run it
-Container is give you PHP's interactive mode by default:
 ```sh
 docker run --rm -i -t voduytuan/gitlab-php-ci
 ```
