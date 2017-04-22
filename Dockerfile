@@ -10,7 +10,7 @@ RUN composer -n require phploc/phploc:* phpunit/phpunit:~4.0 pdepend/pdepend:~2.
 
 RUN rm /etc/apt/sources.list.d/ondrej-php5-trusty.list
 RUN apt-get update
-RUN apt-get -y -f install php5-dev php-pear rsync
+RUN apt-get -y -f install php5-dev php-pear rsync git-core
 
 
 
